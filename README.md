@@ -1,5 +1,7 @@
 # FEATURE-Plugin
 
+This is a plugin for PyMol 2.x under windows to find ion sites (Calcium) in a protein 3D structure using the ‘Feature’ program (https://simtk.org/projects/feature/) and to show the results in PyMol. It uses 'DSSP' and an 'R' script under windows but 'Feature' in a linux distribution.
+
 ![image](https://user-images.githubusercontent.com/102952395/161944745-b986e752-e4c6-490f-965a-59ed1f71a183.png)
 # How to install ?
 
@@ -12,6 +14,7 @@ You can directly choose which linux distribution to install. I took :> wsl -- in
 
 D'ont forget to change the subsystem from wsl to wsl2 : >wsl --set-default-version 2
 
-If you use an open source version of PyMol from Christophe Gohlkes site, you have to installe Python (3.8 and 3.9 will work fine) and PySide2 (https://pypi.org/project/PySide2/) under Windows according to your Python version. I installed the shiboken2-5.12.2 and PySide2-5.12.2 .whl files for my Python version manually with pip. 
-You also need to install 'R' for windows that you find at :
+If you use an open source version of PyMol from Christophe Gohlkes site, you have to installe Python (3.8 and 3.9 will work fine) and PySide2 (https://pypi.org/project/PySide2/) under Windows according to your Python version. I installed the shiboken2-5.12.2 and PySide2-5.12.2 .whl files for my Python version manually with pip.
+
+You also need to install 'R' for windows that you find at : https://cran.r-project.org/bin/windows/base/R-4.1.3-win.exe and (the old version of) dssp for windows : https://swift.cmbi.umcn.nl/gv/dssp/HTML/DSSPCMBI.EXE
 
